@@ -1,4 +1,4 @@
-{% if site.categories.first[0] != null %}
+{% if site.categories.first[0] == null %}
 		<h3>CATEGORIES {{ site.categories.size }} / {{ site.categories[0] }} </h3>
 
 		<div style="font-size:0.9em;">
