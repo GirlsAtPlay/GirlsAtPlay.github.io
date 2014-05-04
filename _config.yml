@@ -10,13 +10,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : More on Code
+title : Girls at Play
 tagline: Site Tagline
 author :
   name : Joseph B. Hall
-  email : moreoncode@codetopia.com
+  email : hello@girlsatplay.com
   github : groundh0g
-  twitter : groundh0g
+  twitter : GirlzAtPlay
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -27,7 +27,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://blog.moreoncode.com
+production_url : http://www.girlsatplay.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -90,7 +90,7 @@ JB :
     intensedebate :
       account : 123abc
     facebook :
-      appid : 548283078619119
+      appid : 299306950237660
       num_posts: 5
       width: 580
       colorscheme: light
@@ -102,7 +102,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-3294285-4'
+        tracking_id : 'UA-3294285-5'
     getclicky :
       site_id : 
     mixpanel :
