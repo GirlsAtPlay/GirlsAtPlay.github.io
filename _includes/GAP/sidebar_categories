@@ -1,7 +1,7 @@
 {% if site.categories.first[0] == null %}
 	<!-- No Categories? -->
 {% else %}
-		<h3>CATEGORIES</h3>
+		<h3>Categories</h3>
 
 		<div style="font-size:0.9em;">
 			<ul class="posts" style="list-style-type:none; list-style:none; margin:0; padding:0; margin-left:10px;">
