@@ -1,12 +1,11 @@
-<div class="row-fluid post-full">
-  <div class="span12">
   	<table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
   		<tr>
-  			<td style="width:170px; vertical-align:top;">
-				{% include MOC/sidebar_logo %}
-				{% include MOC/sidebar_ads_amazon %}
+  			<td class="mainSidebar" style="width:185px; padding-left:15px; vertical-align:top;">
+				{% include GAP/sidebar_categories %}
+				{% include GAP/sidebar_recent_posts %}
+				{% include GAP/sidebar_social %}
 			</td>
-			<td style="padding-left:20px; padding-right:20px; vertical-align:top;">
+			<td class="mainContent" style="padding-left:20px; padding-right:20px; vertical-align:top;">
 				<div class="page-header">
 					<h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 				</div>
@@ -54,10 +53,7 @@
 				{% include JB/comments %}
 			</td>
 			<td style="width:170px; vertical-align:top;">
-				{% include MOC/sidebar_recent_posts %}
-				{% include MOC/sidebar_social %}
+				{% include GAP/sidebar_ads_amazon %}
 			</td>
 		</tr>
 	</table>
-  </div>
-</div>
